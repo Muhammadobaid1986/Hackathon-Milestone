@@ -6,16 +6,13 @@ body {
     padding: 150px;
 }
 
-@media (max-width: 450px) {
-    .resume-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        width: 100%; /* Full width for mobile */
-        max-width: 100%; /* Max width ko bhi set karte hain */
-        box-sizing: border-box; /* Extra spacing issues avoid karne ke liye */
-    }
+.resume-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 
